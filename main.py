@@ -1,14 +1,25 @@
-# Equipo brrrr
+# Equipo: brrrr
 # Descripción: Proyecto de prueba para practicar Git y GitHub.
 # Contiene funciones básicas de operaciones matemáticas simples.
 
+# Función de suma
 def suma(a, b):
     return a + b
 
+# Función de resta
 def resta(a, b):
     return a - b
 
+# Función de dividir (emanuel)
+def dividir(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Error: división entre cero"
+
+
+# Bloque principal
 if __name__ == "__main__":
-    print("Probando funciones matemáticas:")
-    print("5 + 3 =", suma(5, 3))
-    print("10 - 4 =", resta(10, 4))
+    print("Suma 3 + 5 =", suma(3, 5))
+    print("Resta 10 - 4 =", resta(10, 4))
+    print("División 20 / 5 =", dividir(20, 5))
