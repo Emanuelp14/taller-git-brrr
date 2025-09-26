@@ -10,6 +10,11 @@ def suma(a, b):
 def resta(a, b):
     return a - b
 
+#funcion de multiplicar
+def multiplicar(a, b):
+    return a * b
+
+
 # Función de dividir (emanuel)
 def dividir(a, b):
     if b != 0:
@@ -22,4 +27,5 @@ def dividir(a, b):
 if __name__ == "__main__":
     print("Suma 3 + 5 =", suma(3, 5))
     print("Resta 10 - 4 =", resta(10, 4))
+    print("5 * 3 =", multiplicar(5, 3))
     print("División 20 / 5 =", dividir(20, 5))
